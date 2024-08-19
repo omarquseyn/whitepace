@@ -1,0 +1,17 @@
+@media (max-width: 1152px) {
+    .taskey__title {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 875px) {
+    .taskey__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 750px) {
+    .taskey__title {
+        font-size: 36px;
+    }
+}

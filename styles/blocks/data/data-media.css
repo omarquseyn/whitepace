@@ -1,0 +1,29 @@
+@media (max-width: 990px) {
+    .data__container {
+        flex-direction: column-reverse;
+    }
+
+    .data__heading {
+        text-align: center;
+    }
+
+    .data__title {
+        align-self: center;
+    }
+
+    .data__button {
+        align-self: center;
+    }
+}
+
+@media (max-width: 875px) {
+    .data__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 490px) {
+    .data__title {
+        font-size: 36px;
+    }
+}

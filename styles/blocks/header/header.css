@@ -1,0 +1,79 @@
+.header {
+    background: var(--secondary-500);
+}
+
+.header__container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav__link {
+    font-family: var(--third-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 128%;
+    color: #fff;
+}
+
+.nav__item-arrow {
+    transition: 0.5s ease;
+}
+
+.nav__item-arrow.active {
+    transform: rotateZ(180deg);
+}
+
+.header__buttons {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.btn.login {
+    background: #ffe492;
+    color: var(--secondary-500);
+}
+
+.btn.login:hover {
+    background: #ffcd36;
+}
+
+
+.burger, .closeBurger {
+    width: 40px;
+    display: none;
+    color: #fff;
+    font-size: 40px;
+    align-self: center;
+    cursor: pointer;
+    user-select: none;
+}

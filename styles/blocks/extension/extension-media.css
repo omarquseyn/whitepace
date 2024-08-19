@@ -1,0 +1,40 @@
+@media (max-width: 1152px) {
+    .extension__title {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 885px) {
+    .extension__container {
+        flex-direction: column;
+    }
+
+    .extension__heading {
+        align-items: center;
+        text-align: center;
+    }
+
+    .extension__title {
+        align-self: center;
+    }
+
+    .extension__button {
+        align-self: center
+    }
+
+    .extension__image {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .extension__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 450px) {
+    .extension__title {
+        font-size: 36px;
+    }
+}

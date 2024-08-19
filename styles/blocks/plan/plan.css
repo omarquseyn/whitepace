@@ -1,0 +1,173 @@
+.plan {
+    background: #fff;
+}
+
+.plan__container {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.plan__heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.plan__title {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    width: fit-content;
+}
+
+.plan__paragraph {
+    color: #212529;
+    max-width: 980px;
+}
+
+.plan__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #ffe492;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.plan__caption {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #212529;
+}
+
+.plan__price {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.plan__features {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.plan__feature {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.plan__swiper-container {
+    position: relative;
+}
+
+.swiper-slide-active .plan__feature {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 128%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.plan__feature::before {
+    content: url(../../../svg/list.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.swiper-slide-active .plan__feature::before {
+    content: url(../../../svg/list-active.svg);
+}
+
+.plan__button {
+    align-self: flex-start;
+    border: 1px solid #ffe492;
+    background: #fff;
+    border-radius: 8px;
+    color: #212529;
+
+    border-radius: 8px;
+    padding: 16px 24px;    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 128%;
+    letter-spacing: -0.02em;
+}
+
+.plan__button:hover {
+    background: initial;
+}
+
+/* aaaaaaaaaaaaaaaaaa */
+
+.plan__swiper-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px; /* Отступы от краев экрана */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan__slide {
+    /* width: calc((100% / 3) - 64px); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan__content > * {
+    transition: all 0.3s ease;
+}
+
+.swiper-slide-active .plan__content {
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.08);
+    background: var(--secondary-500);
+    transform: scale(1.05);
+}
+
+.swiper-slide-active .plan__caption, 
+.swiper-slide-active .plan__feature,
+.swiper-slide-active .plan__discription {
+    color: #fff;
+}
+
+.swiper-slide-active .plan__price {
+    color: #ffe492;
+} 
+
+.swiper-slide-active .plan__button {
+    background: var(--primary-500);
+    color: #fff;
+    border-color: var(--primary-500);
+}
+
+.swiper-slide-active .plan__button:hover {
+    background: var(--primary-600);
+}
+
+
+
+
+.swiper-pagination {
+    position: absolute;
+    bottom: -40px !important;
+}

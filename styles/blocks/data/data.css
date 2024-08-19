@@ -1,0 +1,41 @@
+.data {
+    background: #fff;
+}
+
+.data__container {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.data__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #212529;
+}
+
+.data__title {
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -0.02em;
+    position: relative;
+    z-index: 1;
+    align-self: flex-start;
+}
+
+.data__button {
+    align-self: flex-start;
+}
+
+.data__image {
+    max-width: 681px;
+}

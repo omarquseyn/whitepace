@@ -1,0 +1,42 @@
+.extension {
+    background: var(--secondary-500);
+}
+
+.extension__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 98px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.extension__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.extension__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.extension__title {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    width: fit-content;
+}
+
+.extension__button {
+    align-self: flex-start;
+}
+
+.extension__paragraph {
+    color: #fff;
+}

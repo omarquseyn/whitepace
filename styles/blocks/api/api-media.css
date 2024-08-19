@@ -1,0 +1,41 @@
+@media (max-width: 1152px) {
+    .api__title {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 885px) {
+    .api__container {
+        flex-direction: column;
+    }
+
+    .api__heading {
+        align-items: center;
+        text-align: center;
+        width: initial;
+    }
+
+    .api__title {
+        align-self: center;
+    }
+
+    .api__button {
+        align-self: center
+    }
+
+    .api__image {
+        width: 80% ;
+    }
+}
+
+@media (max-width: 768px) {
+    .api__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 450px) {
+    .api__title {
+        font-size: 36px;
+    }
+}

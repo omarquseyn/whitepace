@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .plan__title {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    .plan__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 430px) {
+    .plan__title {
+        font-size: 36px;
+    }
+}

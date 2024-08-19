@@ -1,0 +1,38 @@
+@media (max-width: 990px) {
+    .organization__content {
+        flex-direction: column;
+    }
+
+    .organization__heading {
+        text-align: center;
+        align-items: center;
+        width: initial;
+    }
+
+    .organization__title {
+        align-self: center;
+        font-size: 64px;
+    }
+
+    .organization-management > .organization__image {
+        width: 80%;
+    }
+
+    .organization-work > .organization__image {
+        max-width: 80%;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .organization__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 525px) {
+    .organization__title {
+        font-size: 36px;
+    }
+}

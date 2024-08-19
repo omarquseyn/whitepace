@@ -1,0 +1,47 @@
+.api {
+    background: #fff;
+}
+
+.api__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 98px;
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+
+.api__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 50%;
+}
+
+.api__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.api__title {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -0.02em;
+    color: #000;
+    width: fit-content;
+}
+
+.api__button {
+    align-self: flex-start;
+}
+
+.api__paragraph {
+    color: #000;
+}
+
+.api__image {
+    width: 50%;
+}

@@ -1,0 +1,34 @@
+/* main */
+@import url(main/vars/vars.css);
+@import url(main/vars/vars-media.css);
+
+@import url(main/seetings/seetings.css);
+@import url(main/seetings/seetings-media.css);
+
+/* blocks */
+@import url(blocks/header/header.css);
+@import url(blocks/header/header-media.css);
+
+@import url(blocks/hero/hero.css);
+@import url(blocks/hero/hero-media.css);
+
+@import url(blocks/organization/organization.css);
+@import url(blocks/organization/organization-media.css);
+
+@import url(blocks/extension/extension.css);
+@import url(blocks/extension/extension-media.css);
+
+@import url(blocks/api/api.css);
+@import url(blocks/api/api-media.css);
+
+@import url(blocks/plan/plan.css);
+@import url(blocks/plan/plan-media.css);
+
+@import url(blocks/taskey/taskey.css);
+@import url(blocks/taskey/taskey-media.css);
+
+@import url(blocks/data/data.css);
+@import url(blocks/data/data-media.css);
+
+@import url(blocks/sponsors/sponsors.css);
+@import url(blocks/sponsors/sponsors-media.css);
